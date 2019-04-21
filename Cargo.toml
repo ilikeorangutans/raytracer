@@ -9,4 +9,8 @@ assert_approx_eq = "1.1.0"
 
 [dependencies]
 float-cmp = "0.4.0"
+sdl2 = "0.32"
 
+[[bin]]
+name = "projectile"
+path = "src/projectile.rs"
